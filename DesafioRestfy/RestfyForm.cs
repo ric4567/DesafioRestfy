@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace DesafioRestfy
 {
-    public partial class Form1 : Form
+    public partial class RestfyForm : Form
     {
         private SQLiteConnection m_dbConnection;
 
-        public Form1()
+        public RestfyForm()
         {
             InitializeComponent();
             GenerateDatabase();

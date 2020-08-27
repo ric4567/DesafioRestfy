@@ -1,6 +1,6 @@
 ﻿namespace DesafioRestfy
 {
-    partial class Form1
+    partial class RestfyForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -55,14 +55,14 @@
             // 
             // companyTextBox
             // 
-            this.companyTextBox.Location = new System.Drawing.Point(423, 53);
+            this.companyTextBox.Location = new System.Drawing.Point(364, 54);
             this.companyTextBox.Name = "companyTextBox";
             this.companyTextBox.Size = new System.Drawing.Size(157, 23);
             this.companyTextBox.TabIndex = 3;
             // 
             // userTextBox
             // 
-            this.userTextBox.Location = new System.Drawing.Point(137, 53);
+            this.userTextBox.Location = new System.Drawing.Point(78, 54);
             this.userTextBox.Name = "userTextBox";
             this.userTextBox.Size = new System.Drawing.Size(157, 23);
             this.userTextBox.TabIndex = 3;
@@ -70,7 +70,7 @@
             // companyLabel
             // 
             this.companyLabel.AutoSize = true;
-            this.companyLabel.Location = new System.Drawing.Point(365, 56);
+            this.companyLabel.Location = new System.Drawing.Point(306, 57);
             this.companyLabel.Name = "companyLabel";
             this.companyLabel.Size = new System.Drawing.Size(58, 15);
             this.companyLabel.TabIndex = 4;
@@ -79,7 +79,7 @@
             // userLabel
             // 
             this.userLabel.AutoSize = true;
-            this.userLabel.Location = new System.Drawing.Point(81, 56);
+            this.userLabel.Location = new System.Drawing.Point(22, 57);
             this.userLabel.Name = "userLabel";
             this.userLabel.Size = new System.Drawing.Size(53, 15);
             this.userLabel.TabIndex = 4;
@@ -87,7 +87,7 @@
             // 
             // filterButton
             // 
-            this.filterButton.Location = new System.Drawing.Point(605, 53);
+            this.filterButton.Location = new System.Drawing.Point(546, 54);
             this.filterButton.Name = "filterButton";
             this.filterButton.Size = new System.Drawing.Size(75, 23);
             this.filterButton.TabIndex = 5;
@@ -135,12 +135,6 @@
             this.HashDescription.Name = "HashDescription";
             this.HashDescription.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            // 
             // dataGrid
             // 
             this.dataGrid.AllowUserToOrderColumns = true;
@@ -158,7 +152,13 @@
             this.dataGrid.Name = "dataGrid";
             this.dataGrid.Size = new System.Drawing.Size(764, 334);
             this.dataGrid.TabIndex = 0;
-            this.dataGrid.Text = "dataGridView1";
+            this.dataGrid.Text = "dataGrid";
+            // 
+            // RestfyForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.filterButton);
             this.Controls.Add(this.userLabel);
             this.Controls.Add(this.companyLabel);
@@ -166,7 +166,7 @@
             this.Controls.Add(this.companyTextBox);
             this.Controls.Add(this.consumeButton);
             this.Controls.Add(this.dataGrid);
-            this.Text = "Form1";
+            this.Text = "Desafio Restfy";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).EndInit();
             this.ResumeLayout(false);
